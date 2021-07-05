@@ -55,3 +55,49 @@ body {
     padding-top: 2px;
     margin-left: -3px;
 }
+
+/*======================*/
+/*======== header ========*/  
+/*======================*/
+
+.header {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    font-size: 2.466rem;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+.nav__link {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #424242;
+
+    transition: color .2s linear;
+}
+.nav__link:hover {
+    color: #de2b24;
+} 
+
+.btn {
+    padding: 5px 20px;
+    background-color: #de2b24;
+    color: #fff;
+    border-radius: 5px;
+
+    transition: color .2s linear,
+                background .2s linear;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #f8cd53;
+}
