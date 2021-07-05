@@ -54,6 +54,12 @@ body {
     text-align: center;
     padding-top: 2px;
     margin-left: -3px;
+
+    transition: background .2s linear;
+}
+
+.facebook:hover {
+    background: #4867AA;
 }
 
 /*======================*/
@@ -114,7 +120,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(./img/icons/intro-bg.png);
+    background-image: url(./img/intro-bg.png);
     background-size: cover;
 }
 .intro__inner {
@@ -141,4 +147,53 @@ body {
 .intro__subtitle {
     font-size: 2rem;
     margin-bottom: 40px;
+}
+/*======================*/
+/*======== About ========*/  
+/*======================*/
+
+.aboutUs {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.preview {
+    margin-bottom: 50px;
+}
+
+.preview__title {
+    font-size: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.preview__subtitle {
+    font-size: 1.333rem;
+}
+
+.preview__border {
+    margin: 5px auto 0;
+    width: 70px;
+    border: 2px solid #424242;
+}
+
+.aboutUs__inner {
+    margin: 70px auto 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutUs__item {
+    margin: 0 auto;
+    width: 30%;
+    padding: 0 5px;
+    justify-content: space-between;
+}
+
+.aboutUs__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.466rem;
 }
