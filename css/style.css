@@ -71,6 +71,7 @@ body {
     justify-content: space-between;
 }
 .header__logo {
+    font-family: 'DM Sans', sans-serif;
     font-size: 2.466rem;
     margin-left: 10px;
     position: relative;
@@ -100,4 +101,44 @@ body {
 .btn:hover {
     color: #fff;
     background: #f8cd53;
+}
+
+/*======================*/
+/*======== intro ========*/  
+/*======================*/
+
+.intro {
+    width: 100%;
+    height: 40vh;
+    padding: 130px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/icons/intro-bg.png);
+    background-size: cover;
+}
+.intro__inner {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}  
+.intro__btn {
+    background: #f8cd53;
+    font-size: 1.533rem;
+    text-decoration: none;
+
+    transition: background .2s linear;
+}
+
+.intro__btn:hover {
+    background: #de2b24;
+}
+.intro__title {
+    font-size: 3.2rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.intro__subtitle {
+    font-size: 2rem;
+    margin-bottom: 40px;
 }
